@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">PDFCreator</string>
+
+    <string name="action_settings">Settings</string>
+    // Text fragment
+    <string name="add_text_delete">Delete pages</string>
+    <string name="add_text_delete_hint">Which pages do you want to keep?</string>
+    <string name="add_text_hint_enterText">Write or paste text</string>
+    <string name="add_text_meta_doc">Edit existing metadata</string>
+    <string name="add_text_meta_default">Create new metadata</string>
+
+    // Settings
+
+    <string name="settings_prefApp">About the app</string>
+    <string name="settings_prefDir">App directory</string>
+    <string name="settings_prefEnc">Encryption</string>
+    <string name="settings_prefMeta">Metadata</string>
+
+    <string name="pref_imageQuality">Image quality</string>
+    <string name="pref_imageQuality_summary">Set the image quality. Higher quality results in (much) bigger PDF sizes.</string>
+
+    <string name="pref_backup">Backup</string>
+    <string name="pref_backup_summary">Do you want to backup pdf files before manipulating, e.g. deleting or adding pages?</string>
+
+    <string name="pref_folder">Custom directory</string>
+    <string name="pref_folder_hint">Format: \"/Download/PDF/\"</string>
+    <string name="pref_folder_summary">Let empty to use the default directory (\"/Android/data/de.baumann.pdf/\"). Enter the path
+        to your desired folder on your sdcard. The path must begin and end with \"/\" like \"/Download/PDF/\".
+        If the desired directory does not exist, it will be generated automatically.</string>
+
+    <string name="pref_metaAuthor">Author</string>
+
+    <string name="pref_metaTitle">Title</string>
+    <string name="pref_metaCreator">Creator</string>
+    <string name="pref_metaKeywords">Keywords</string>
+    <string name="pref_metaSubject">Subject</string>
+
+    <string name="action_openSettings">App info</string>
+    <string name="action_openSettings_summary">Open via the system settings the app info of the app. There you can,
+        depending on your Android version, manage several things (Storage, network traffic, permissions, …).</string>
+
+    <string-array name="listArrayImage">
+        <item>High (100%)</item>
+        <item>Normal (80%)</item>
+        <item>Low (60%)</item>
+    </string-array>
+
+    <string-array name="listValuesImage">
+        <item>100</item>
+        <item>80</item>
+        <item>60</item>
+    </string-array>
+
+    // About
+
+    <string name="about_settings">… and other things</string>
+    <string name="about_settings_text">Changelog, help, license, used libraries and more.</string>
+
+    <string name="app_portrait">Portrait</string>
+    <string name="app_landscape">Landscape</string>
+    <string name="toast_noPDF">Choose or create a PDF file.</string>
+</resources>
