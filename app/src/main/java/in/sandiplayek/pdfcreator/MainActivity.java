@@ -41,8 +41,8 @@ public class MainActivity extends AppCompatActivity{
                     JSONArray jsonArray = jsonObject.getJSONArray("withdrawReport");
 
                     if(jsonArray.length()>0){
-                        //CreatePdfNormally createPdfNormally = new CreatePdfNormally(MainActivity.this);
-                        //createPdfNormally.createJSONArrayToPDF(jsonArray,"ARRAYEXPORT");
+                        CreatePdfNormally createPdfNormally = new CreatePdfNormally(MainActivity.this);
+                        createPdfNormally.createJSONArrayToPDF(jsonArray,"ARRAYEXPORT");
 
                         //CreatePdfPassword createPdfPassword = new CreatePdfPassword(MainActivity.this);
                         //createPdfPassword.createJSONArrayToPDF(jsonArray,"ARRAYEXPORT","123");
