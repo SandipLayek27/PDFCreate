@@ -27,7 +27,7 @@ AND
 
 ```sh
 dependencies {
-    implementation 'com.github.SandipLayek27:PDFCreate:1.0'
+   implementation 'com.github.SandipLayek27:PDFCreate:1.1'
 }
 ```
 
