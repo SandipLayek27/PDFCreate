@@ -110,6 +110,7 @@ public class CreatePdfNormally{
         try {
             String path = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS) + fileName;
 
+
             in = new FileInputStream(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS) +  "/" + title);
             out = new FileOutputStream(path);
 
